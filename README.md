@@ -10,7 +10,8 @@ C# support for Oni uses the [OmniSharp Node Client](https://github.com/OmniSharp
 To get started:
 
 - Clone repository into your oni plugin path (~/.oni/plugins)
-- Run `npm install`
+- Run `npm install` in the cloned path
+- Restart Oni
 
 ## Features
 
