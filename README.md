@@ -25,5 +25,6 @@ For the language server to work correctly, the following conditions must be met:
 
 ## Known Issues
 
+- If you are using the .NET Core CLI, make sure to run `dotnet restore` on your project.
 - On Windows, you must run Oni as an administrator the first time using the C# language service. This is tracked by issue [#423](https://github.com/extr0py/oni/issues/423).
 - On all platforms, the C# language service takes time to start up, especially the first time as it is downloading the appropriate runtime environment. You can open up the developer tools (Help -> Developer Tools) to see the logging from the language service.
