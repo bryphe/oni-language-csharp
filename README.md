@@ -13,6 +13,10 @@ To get started:
 - Run `npm install` in the cloned path
 - Restart Oni
 
+For the language server to work correctly, the following conditions must be met:
+- You have a valid `.csproj` file with any dependent packages (ie, NuGet) installed.
+- The project must have been built at least once.
+
 ## Features
 
 - Goto Definition
