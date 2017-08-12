@@ -1,7 +1,9 @@
 # oni-language-csharp
 ## C# Language Plugin for [Oni](https://github.com/extr0py/oni) 
 
-C# completion for Oni uses the [OmniSharp Node Client](https://github.com/OmniSharp/omnisharp-node-client) which provides language capabilities for both .NET and Mono. For it to work correctly, you need to have a valid `.csproj` file with any dependent packages (ie, Nuget) installed. The project should also build and compile.
+![screenshot](screenshot.png)
+
+C# support for Oni uses the [OmniSharp Node Client](https://github.com/OmniSharp/omnisharp-node-client) which provides language capabilities for both .NET and Mono. For it to work correctly, you need to have a valid `.csproj` file with any dependent packages (ie, Nuget) installed. The project should also build and compile.
 
 ## Usage
 
